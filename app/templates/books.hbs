@@ -1,0 +1,6 @@
+<h2>My Books</h2>
+
+{{#each model as |book|}}
+  <h4>{{book.title}}</h4>
+  {{#link-to 'books.book' book}}View{{/link-to}}
+{{/each}}
