@@ -1,7 +1,9 @@
-<div class="modal">
-  <a href="" class="close" {{action 'close'}}>X</a>
-  <div class="modal-content">
-    <h3>Book Details</h3>
+<div class="my-overlay">
+  <div class="my-modal">
+    <h4>Book Details</h4>
     <p>Title: {{model.title}}</p>
+    <div>
+      <button type="button" class="btn btn-default" {{action 'close'}}>Close</button>
+    </div>
   </div>
 </div>

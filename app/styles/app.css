@@ -1,23 +1,21 @@
-.modal {
+.my-overlay {
   position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(0, 0, 0, .5);
+  background: rgba(0, 0, 0, .6);
 }
 
-.modal-content {
-  width: 60%;
-  background-color: white;
-  margin: auto;
-}
-
-.close {
+.my-overlay .my-modal {
+  background: white;
   position: absolute;
-  right: 20px;
-  top: 5px;
-  color: white;
-  font-size: 40px;
-  text-decoration: none;
+  top: 50%;
+  left: 50%;
+  margin-top: -250px;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: -250px;
+  width: 500px;
+  height: 500px;
 }
